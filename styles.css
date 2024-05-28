@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Poetsen One", sans-serif;
+    
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 8vh;
+    background-color: rgb(91, 91, 167);
+}
+.lista-nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 2vh;
+    margin-right: 8vh;
+
+
+}
+.izq-nav{
+    height: 100%;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    min-height: 8vh;
+    margin-left: 8vh;
+    
+
+}
+#sopapa{
+    width: 25%;
+    height: 40%;
+}
+h1 {
+    font-size: 1.5vw;
+    max-width: 200px
+}
+.a-list{
+    color: black;
+    font-size: 1.5vw;
+
+}
